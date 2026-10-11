@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 413px);
+    gap: 25px;
+}
+
+.card {
+    width: 413px;
+    height: 250px;
+    border-radius: 12px;
+    position: relative;
+    padding: 20px;
+    color: white;
+}
+
+.purple {
+    background-color: #9145ad;
+}
+
+.green {
+    background-color: #009933;
+}
+
+.blue {
+    background-color: #0950df;
+}
+
+.black {
+    background-color: #171717;
+}
+
+.chip {
+    width: 44px;
+    height: 38px;
+    object-fit: fill;
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 14px;
+}
+
+.card-number {
+    font-family: "Courier New", monospace;
+    font-size: 28px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin-bottom: 3px;
+}
+
+.card-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.valid {
+    position: absolute;
+    left: 19px;
+    bottom: 24px;
+}
+
+.valid span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.valid p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.visa {
+    position: absolute;
+    right: 28px;
+    bottom: 24px;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -3px;
+}
